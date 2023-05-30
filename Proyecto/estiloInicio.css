@@ -1,0 +1,34 @@
+img{
+    src: "../IMG/Lic.png";
+    class: 
+}
+.index {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .index li {
+    margin-bottom: 5px;
+  }
+
+  /* Estilos de los enlaces */
+  .index li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+  /* Estilos para el despliegue */
+  .index li ul {
+    display: none;
+    margin-left: 10px;
+  }
+
+  /* Estilos para el despliegue cuando se activa */
+  .index li:hover ul {
+    display: block;
+  }
