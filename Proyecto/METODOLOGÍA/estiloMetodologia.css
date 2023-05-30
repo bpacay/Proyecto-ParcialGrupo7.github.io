@@ -1,0 +1,92 @@
+
+.titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    background-color: #b5d0f1;
+}
+.cuerpazo{
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+.index {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+  .index li {
+    margin-bottom: 15px;
+}
+
+  /* Estilos de los enlaces */
+.index li a {
+    display: block;
+    text-decoration: none;
+    color: #0e0e0e;
+    background-color: #fffffffb;
+    padding: 5px;
+    border-radius: 5px;
+}
+  /* Estilos para el despliegue */
+.index li ul {
+    display: none;
+    margin-left: 15px;
+}
+  /* Estilos para el despliegue cuando se activa */
+.index li:hover ul {
+    display: block;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.background-section {
+    background-image: url("./IMG/fondo.img");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+  }
+.navbar {
+    background-color: #b5d0f1;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar li {
+    margin-right: 10px;
+  }
+
+  .navbar a,
+  .navbar button {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+}
+.custom-iframe {
+    border: 2px solid #757a86;
+    box-shadow: 0 0 10px rgba(19, 57, 226, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Opcional: Ajusta la altura según tus necesidades */
+      }
+  }
+
+  .custom-iframe:hover {
+    box-shadow: 0 0 15px rgba(39, 4, 238, 0.5);
+  }
+
